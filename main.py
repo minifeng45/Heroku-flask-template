@@ -69,4 +69,4 @@ def markenmeer ():
     return render_template('/blog_article/markenmeer.html')
 
 
-app.run(debug=True, port=8000)
+app.run()
