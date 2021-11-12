@@ -1,5 +1,9 @@
 # in your python file
+from flask import Flask
+
 @app.route('/')
+
+app = Flask(__name__)
 
 def index():
   return "<h1>Mario is my Spanish teacher </h1>"
